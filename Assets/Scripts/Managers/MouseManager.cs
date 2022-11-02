@@ -37,6 +37,9 @@ public class MouseManager : MonoBehaviour
                 case "Ground":
                     Cursor.SetCursor(arrow, new Vector2(0, 0), CursorMode.Auto);
                     break;
+                case "Enemy":
+                    Cursor.SetCursor(atk, new Vector2(0, 0), CursorMode.Auto);
+                    break;
             }
         }
 
